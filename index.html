@@ -10,11 +10,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.min.js"></script>
-    <script src="index.js"></script>
-    <script src="JS/index.spec.js"></script>
+    
 </head>
 
 <body>
-</body>
+        <!--Crear un input de tipo texto-->
+    <input type="text" id="usernameInput" placeholder="Introduce un usuario de GitHub">
+        <!--Crear un botón buscar-->
+    <button id="searchBtn">Buscar</button>
+        <!--Crear un contenedor dónde se mostrará la tarjeta del usuario-->
+    <div id="userContainer"></div>
 
+    <script src="index.js"></script>
+    <script src="JS/index.spec.js"></script>
+</body>
 </html>
